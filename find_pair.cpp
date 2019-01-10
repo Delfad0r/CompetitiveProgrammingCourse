@@ -4,6 +4,9 @@ consistent with 0-based indexing. Let a be A[K/N], u be the
 number of entries in A equal to a, v the number of entries smaller
 than a. Then the first element of the K-th pair is a, and the
 second one is A[(K-v*N)/u].
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

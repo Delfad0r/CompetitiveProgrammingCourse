@@ -1,5 +1,8 @@
 /*
 This solution implements Kruskal's algorithm for finding a MST.
+
+Time complexity:  O(NlogN) [CCLR] Chapter 21
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

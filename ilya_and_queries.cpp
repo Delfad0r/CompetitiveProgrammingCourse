@@ -1,6 +1,9 @@
 /*
 We build a binary array containing 1 at position n when S[n]==S[n-1],
 and then compute prefix sums. Then answering the queries is trivial.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

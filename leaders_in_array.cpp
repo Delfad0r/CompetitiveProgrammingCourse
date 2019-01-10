@@ -2,6 +2,9 @@
 We iterate from the end of the array to the beginning keeping
 the maximum value encountered so far (m, initially -1);
 when an element >= m is found, it is marked as a leader and m is updated.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

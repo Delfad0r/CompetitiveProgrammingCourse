@@ -4,6 +4,9 @@ integer s, the value K[s]*K[s]*s increases by (2*K[s]+1)*s
 (and then K[s] increases by 1). When we remove an integer s,
 the value K[s]*K[s]*s increases by (-2*K[s]+1)*s (and then
 K[s] decreases by 1).
+
+Time complexity:  O(TlogT+NsqrtN)
+Space complexity: O(T+N)
 */
 
 #include <bits/stdc++.h>

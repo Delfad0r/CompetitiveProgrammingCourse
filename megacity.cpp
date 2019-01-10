@@ -2,6 +2,9 @@
 We sort the locations by distance from the origin, then we compute
 cumulative sums until the total population exceeds 10^6, and
 return the current distance.
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

@@ -1,6 +1,11 @@
 /*
 The solution is very straightforward: we simply sort the
 string, then put the smallest even digit (if any) at the end;
+
+Time complexity: O(NlogN)
+Space complexity: O(N)
+
+where N is the length of S.
 */
 
 #include <bits/stdc++.h>

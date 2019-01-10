@@ -4,7 +4,10 @@ If b== e then there is no water trapped, and we return 0.
 Otherwise, assume H[b]<=H[e] (the other case is identical).
 Let i be the first index >=b such that H[i]>H[b].
 Then we can easily compute the water trapped in [b,i],
-and then call f on the segment [i,e]. 
+and then call f on the segment [i,e].
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

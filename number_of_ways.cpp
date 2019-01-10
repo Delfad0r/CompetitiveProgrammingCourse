@@ -3,6 +3,9 @@ A[n] stores the prefix sum of the sequence of indices from 0
 up to n-1. Then we count for each 1<=n<N such that A[n]==2*A[N]/3
 the number of indices m<n such that A[m]==A[N]/3 (this means we
 can split the sequence at indices m and n).
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

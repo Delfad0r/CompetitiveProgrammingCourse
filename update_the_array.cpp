@@ -4,6 +4,9 @@ We start with an array A containing N+1 zeros. To process query
 compute prefix sums, and the array A is correctly updated. Then
 answering the queries is trivial (we simply print the value of
 A at the requested index).
+
+Time complexity:  O(N+U+Q)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

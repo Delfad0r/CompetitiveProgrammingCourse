@@ -5,6 +5,9 @@ A[i]>=A[j] for all j in ]i,n], sorted by decreasing values of A[i].
 It can easily be proved by induction that the code produces
 such a deque at each iteration. Consequently, the answer can be
 obtained by simply looking at the back of the deque.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

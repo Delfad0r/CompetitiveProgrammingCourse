@@ -7,7 +7,11 @@ For every value occurring at least twice, we put one copy in both heaps.
 All other values are split evenly between the two heaps, and finally
 other copies of the values occurring at least twice are placed randomly.
 The answer is the product of the numbers of unique values in each heap.
-The code is more convoluted than necessary in order to have a linear solution.
+The code is more convoluted than necessary in order to have a linear time
+solution.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 int main() {

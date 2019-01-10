@@ -3,6 +3,9 @@ For each index 0<=n<N, we want to compute F[n], the number of queries
 n appears in. We do this by adding, for each query [l,r], +1 to F[l]
 and -1 to F[r+1] and then computing prefix sums. Once we have done
 that, we sort A and F. The answer is A[0]*F[0]+...+A[N-1]*F[N-1].
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

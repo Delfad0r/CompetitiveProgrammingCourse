@@ -4,6 +4,11 @@ Eratosthenes (once for all testcases). Then we simply perform
 a DFS on the tree (augmented with a dummy root 0 whose only
 child is Mr. Alfred) keeping track of the depth and counting
 the number of employees satisfying the condition.
+
+Time complexity:  O(N)
+Space complexity: O(N)
+
+(excluding the computation of prime numbers)
 */
 
 #include <bits/stdc++.h>

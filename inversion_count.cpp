@@ -3,6 +3,9 @@ We implement an algorithm similar to merge sort. In the merge step,
 in addition to sorting the sequence, we also compute the number of
 inversions between elements of A2 and elements of A1 (i.e. the sum
 for a2 in A2 of the number of elements in A1 that are larger than a2).
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

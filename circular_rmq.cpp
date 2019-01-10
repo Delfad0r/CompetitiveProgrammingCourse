@@ -4,6 +4,9 @@ The "circular" part is implemented by always making two queries/updates,
 one in the range [b1, e1) and one in the range [b2,e2). When the given
 interval does not wrap around, the second query/update is performed on
 the empty range and does not have any effect.
+
+Time complexity:  O((N+M)logN)
+Space complexity: O(NlogN)
 */
 
 #include <bits/stdc++.h>

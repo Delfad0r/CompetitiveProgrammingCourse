@@ -4,6 +4,9 @@ is the maximum path sum in the subtree rooted at root, while
 the second element is maximum sum of a path starting at root
 and contained in the subtree rooted at root. The recursive
 implementation is straightforward. 
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 typedef pair<int, int> II;

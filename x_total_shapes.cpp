@@ -4,6 +4,9 @@ whose vertices are the X's and adjacent X's are connected. To
 achieve this we simply iterate over all X's and run a DFS when
 we encounter one we haven't visited yet, incrementing the counter
 by one.
+
+Time complexity:  O(NM)
+Space complexity: O(NM)
 */
 
 #include <bits/stdc++.h>

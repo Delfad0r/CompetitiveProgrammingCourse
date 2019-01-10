@@ -2,6 +2,9 @@
 For a given value of n, the stack S contains all A[i]'s with i>=n
 such that A[i]>=A[j] for all j>=i, sorted by decreasing values of A[i].
 To compute the answer, we only have to look at the back of the stack.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

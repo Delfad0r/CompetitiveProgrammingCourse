@@ -1,6 +1,9 @@
 /*
 Let S[n] be A[0]+...+A[n - 1]. Then Alice will eat k chocolate
 bars, where k is the smallest index such that 2*S[k]+A[k]>S[N].
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

@@ -2,6 +2,9 @@
 We implement the trivial solution: after sorting the sequence,
 we simply count the number of different integers and
 the longest subsequence of identical values.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

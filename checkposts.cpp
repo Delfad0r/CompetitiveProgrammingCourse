@@ -1,6 +1,9 @@
 /*
 This solution implements Kosaraju's algorithm for finding SCCs.
 Once we have the SCCs, computing the answer is trivial.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

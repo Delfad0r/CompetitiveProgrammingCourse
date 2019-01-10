@@ -2,6 +2,9 @@
 We implement a new function isBST0 that checks whether the tree rooted
 at root is a BST and additionally all its vertices have values in the
 range [low,high]. Then the recursive implementation if BST0 is straightforward.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 bool isBST0(Node* root, int low = 0, int high = 1 << 30) {

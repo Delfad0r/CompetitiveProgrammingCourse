@@ -3,6 +3,9 @@ We iterate on the array, keeping the current best answer (ans)
 and the running sum (sum). For each element we update the running sum,
 then update ans if necessary, and finally if
 the running sum is negative we reset it to 0.
+
+Time complexity:  O(N)
+Space complexity: O(1)
 */
 
 #include <bits/stdc++.h>

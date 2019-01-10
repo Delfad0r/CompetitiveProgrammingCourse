@@ -4,6 +4,9 @@ N*(N+1)
 ------- - (sum of the other numbers)
    2
 as the sum of all numbers from 1 to N is N*(N+1)/2.
+
+Time complexity:  O(N)
+Space complexity: O(1)
 */
 
 #include <bits/stdc++.h>

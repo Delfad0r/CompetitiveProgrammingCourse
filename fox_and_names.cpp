@@ -5,6 +5,12 @@ or A[n]>A[n+1] independently of the chosen permutation); then we
 want A[n][i]<A[n+1][i], so we add an edge between the two letters.
 Then we perform topological sort on the graph: if there is a cycle
 then the answer is "Impossible", otherwise we find a valid permutation.
+
+Time complexity:  O(L)
+Space complexity: O(L)
+
+where L is the total length of strings A[n];
+we assume the size of the alphabet is constant.
 */
 
 #include <bits/stdc++.h>

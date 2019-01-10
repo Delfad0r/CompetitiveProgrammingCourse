@@ -2,6 +2,9 @@
 We first sort all the pairs by strength, and then select
 them greedily: we start from the strongest pair, and we
 select a pair if none of the two member has already been selected.
+
+Time complexity:  O(N^2)
+Space complexity: O(N^2)
 */
 
 #include <bits/stdc++.h>

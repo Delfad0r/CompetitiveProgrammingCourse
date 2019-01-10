@@ -2,6 +2,9 @@
 We precompute f(1,i,a_i) and f(j,n,a_j) in the arrays L and R.
 Then all we have to do is counting the pairs of indices i<j such
 that L[i]>R[j]; this is easily accomplished with a fenwick tree. 
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

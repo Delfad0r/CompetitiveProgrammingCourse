@@ -4,7 +4,12 @@ and the languages, and an employee is connected to a language
 if he knows it. Then the answer will be the number of connected
 components of the graph that contain at least one employee minus
 one. There is a special case, though: if none of the employees
-know any language at all, then the answer will be N (and not N-1). 
+know any language at all, then the answer will be N (and not N-1).
+
+Time complexity:  O(N+M+K)
+Space complexity: O(N+M+K)
+
+where K is the sum of the numbers of languages known by each employee.
 */
 
 #include <bits/stdc++.h>

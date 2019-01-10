@@ -3,6 +3,9 @@ After compressing the coordinates in the range [0,2*N) we process the
 segments by decreasing first endpoint. Given a segment [l,r] we have
 to count how many of the segments we have already processed have the
 second endpoint <=r; this is done with a fenwick tree.
+
+Time complexity:  O(NlogN)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

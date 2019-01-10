@@ -3,6 +3,9 @@ For each connected component of the graph we run a DFS, coloring adjacent
 vertices with different colors (1 or 2). If we find a contradiction (i.e.
 a vertex we have already colored should have a different color) then the
 graph is not bipartite, otherwise it is.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 bool isBipartite(int G[][MAX], int V) {

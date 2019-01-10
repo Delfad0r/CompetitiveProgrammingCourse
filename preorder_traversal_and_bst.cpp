@@ -3,6 +3,9 @@ We keep a stack S of nodes and a node u. At each iteration
 we are in the left subtrees of nodes in S and in the right
 subtree of node u. if a<u then we have reached a contradiction,
 and there is no valid BST; Otherwise we update S and u.
+
+Time complexity:  O(N)
+Space complexity: O(N)
 */
 
 #include <bits/stdc++.h>

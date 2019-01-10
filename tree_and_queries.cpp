@@ -5,6 +5,9 @@ have to answer queries of the form "how many colors occur at
 least K times in the range [L,R)?", which can be accomplished
 with Mo's algorithm. The value cnt_cnt[i] is the number of colors
 that occur at least i times in the current range [l,r).
+
+Time complexity:  O(MlogM+NsqrtN)
+Space complexity: O(M+N)
 */
 
 #include <bits/stdc++.h>
